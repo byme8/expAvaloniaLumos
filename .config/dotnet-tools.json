@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "isRoot": true,
+  "tools": {
+    "makeitmeta.cli": {
+      "version": "0.2.0-preview.5",
+      "commands": [
+        "makeitmeta"
+      ]
+    },
+    "lumos.cli": {
+      "version": "0.1.0-preview.3",
+      "commands": [
+        "lumos"
+      ]
+    }
+  }
+}

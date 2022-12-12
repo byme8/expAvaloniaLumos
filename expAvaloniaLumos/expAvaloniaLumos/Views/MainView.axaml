@@ -1,0 +1,14 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:viewModels="clr-namespace:expAvaloniaLumos.ViewModels"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="expAvaloniaLumos.Views.MainView"
+             Foreground="White"
+             Background="#171C2C">
+    <Grid Margin="100 50">
+        <Button Content="Do it" Tapped="DoIt" VerticalAlignment="Top" HorizontalAlignment="Center" />
+        <ContentPresenter x:Name="ContentPresenter2" Margin="50"/>
+    </Grid>
+</UserControl>
