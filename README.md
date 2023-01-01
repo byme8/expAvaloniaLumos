@@ -64,3 +64,5 @@ In our case, it is `` Lumos.Profiler.Attributes.TelemetryAttribute ``, because t
 As a result, every method or property will produce telemetry. 
 
 [Here](https://github.com/byme8/Lumos.Profiler/blob/main/src/Lumos.Profiler/Attributes/TelemetryAttribute.cs) you can have a quick look how the attribute is implemented.
+
+Also, there is a way to limit the set of methods and properties. You can have a look at the [expAvaloniaLumos/expAvaloniaLumos.Desktop/avalonia.makeitmeta.json](https://github.com/byme8/expAvaloniaLumos/blob/master/expAvaloniaLumos/expAvaloniaLumos.Desktop/avalonia.makeitmeta.json)
