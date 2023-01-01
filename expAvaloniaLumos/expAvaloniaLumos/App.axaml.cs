@@ -14,6 +14,7 @@ namespace expAvaloniaLumos
         {
             var profiler = new ProfilerClient();
             _ = profiler.Connect(IPAddress.Parse("127.0.0.1"), 15000);
+            // _ = profiler.Connect(IPAddress.Parse("192.168.50.110"), 15000);
             AvaloniaXamlLoader.Load(this);
         }
 

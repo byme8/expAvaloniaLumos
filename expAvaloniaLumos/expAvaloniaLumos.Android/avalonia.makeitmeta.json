@@ -1,0 +1,38 @@
+{
+  "$schema": "https://raw.githubusercontent.com/byme8/MakeItMeta/main/schema.verified.json",
+  "targetAssemblies": [
+    "./bin/Debug/net6.0-android/Avalonia.Base.dll",
+    "./bin/Debug/net6.0-android/Avalonia.Controls.dll",
+    "./bin/Debug/net6.0-android/Avalonia.Android.dll"
+  ],
+  "additionalAssemblies": [
+    "./bin/Debug/net6.0-android/Lumos.Profiler.dll"
+  ],
+  "attributes": [
+    {
+      "name": "Lumos.Profiler.Attributes.TelemetryAttribute",
+      "add": [
+        {
+          "name": "Avalonia.Input.InputManager",
+          "methods": [
+            "ProcessInput"
+          ]
+        },
+        {
+          "name": "Avalonia.Input.Gestures"
+        },
+        {
+          "name": "Avalonia.Layout.LayoutManager"
+        },
+        {
+          "name": "Avalonia.Layout.Layoutable"
+        },
+        {
+          "name": "Avalonia.Rendering.Composition.Compositor"
+        },{
+          "name": "Avalonia.AvaloniaObject"
+        }
+      ]
+    }
+  ]
+}
