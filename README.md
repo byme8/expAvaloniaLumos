@@ -55,8 +55,12 @@ The makeitmeta.json looks like that:
 }
 ```
 The `targetAssemblies` is the list of assemblies to modify.
+
 The `additionalAssemblies` is the list of additional assemblies that will be injected.
+
 The `attributes` is the list of attributes that should be injected.
+
 In our case, it is `` Lumos.Profiler.Attributes.TelemetryAttribute ``, because there are no limitations, it is injected in every method and property.
 As a result, every method or property will produce telemetry. 
+
 [Here](https://github.com/byme8/Lumos.Profiler/blob/main/src/Lumos.Profiler/Attributes/TelemetryAttribute.cs) you can have a quick look how the attribute is implemented.
